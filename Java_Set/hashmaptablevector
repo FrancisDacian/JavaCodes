@@ -1,0 +1,66 @@
+package com.empmanage;
+import java.util.*;
+
+public class Linkledlist {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//LinkedList ll = new LinkedList();
+		//Emp emp1 = new Emp("sa01","aa",1.2f);
+		//Emp emp2 = new Emp("sa02","bb",1.5f);
+		//add to the fisrt
+		//ll.addFirst(emp1);
+		//ll.addFirst(emp2);
+		//ll.addLast(emp2);
+		//for(int i =0;i<ll.size();i++)
+		//{
+		//	System.out.println(((Emp)ll.get(i)).getName());
+		//}
+		
+		/*HashMap hm = new HashMap();
+		Emp emp1 = new Emp("sa01","aa",1.2f);
+		Emp emp2 = new Emp("sa02","bb",1.5f);
+		Emp emp3 = new Emp("sa03","cc",1.3f);
+		
+		hm.put("sa01", emp1);
+		hm.put("sa02", emp2);
+		hm.put("sa03", emp3);
+		
+		if(hm.containsKey("sa02"))
+		{
+			System.out.println("have");
+			Emp emp = (Emp)hm.get("sa02");
+			System.out.println("name: "+emp.getName());
+
+			
+		}else
+		{
+			System.out.println("don't have");
+		}
+		//遍历
+		Iterator it = hm.keySet().iterator();
+		//返回bool值
+		while(it.hasNext())
+		{
+			//取出key
+			String key = it.next().toString();
+			//通过key取出value
+			Emp emp = (Emp)hm.get(key);
+			System.out.println("name is: "+emp.getName());
+			System.out.println("sal is: "+emp.getSal());
+		}
+		*/
+		
+		Hashtable ht = new Hashtable();
+		//HashMap hm = new HashMap();
+		//hashmap速度快，线程不安全 异步 可以放入空值
+		//hashtable有锁，但是速度慢 同步 不可以放入空值
+		//同步安全 异步不安全
+		//vector同步 自动增长一倍空间
+		//ArrayList异步 自动增长一半空间
+		ht.put(null, null);
+		
+	}
+	
+
+}
